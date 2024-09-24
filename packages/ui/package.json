@@ -1,0 +1,16 @@
+{
+  "name": "@front-design/ui",
+  "version": "1.0.0",
+  "description": "front-design base ui",
+  "main": "index.ts",
+  "scripts": {},
+  "author": "kchengz",
+  "devDependencies": {
+    "ant-design-vue": "^4.1.2",
+    "front-design": "0.9.5",
+    "vite-plugin-dts": "^3.3.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}

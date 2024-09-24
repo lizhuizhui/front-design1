@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lib": "pnpm run build --filter front-design",
+    "lint": "turbo run lint",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "examples:build": "pnpm run build --filter @front-design/examples",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.2.1",
+    "less": "^4.1.3"
+  },
+  "devDependencies": {
+    "@front-design/core": "workspace:*",
+    "@front-design/ui": "workspace:*",
+    "@front-design/utils": "workspace:*",
+    "@turbo/gen": "^1.10.9",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "element-plus": "^2.3.8",
+    "eslint": "^8.45.0",
+    "naive-ui": "^2.34.4",
+    "prettier": "^2.8.8",
+    "turbo": "latest",
+    "typescript": "^5.1.6",
+    "unocss": "^0.62.3",
+    "vite": "^4.4.6",
+    "vite-plugin-dts": "^3.3.1",
+    "vitepress": "1.0.0-alpha.28",
+    "vitest": "^2.0.5",
+    "rollup-plugin-copy": "^3.5.0",
+    "vue": "^3.3.4"
+  },
+  "packageManager": "pnpm@7.15.0",
+  "name": "front-design-project"
+}

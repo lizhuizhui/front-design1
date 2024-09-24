@@ -1,0 +1,83 @@
+@import './modules/rightSidebar/index.less';
+@import './modules/outline/index.less';
+@import './modules/header/index.less';
+@import './modules/actionBar/index.less';
+@import './modules/componentView/index.less';
+@import './modules/editContainer/index.less';
+@import './modules/attributeView/index.less';
+@import './modules/preview/index.less';
+
+.loading-box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 覆盖iconfont样式
+.iconfont {
+  font-size: 1em;
+}
+
+.front-design-main {
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  color: @text-main;
+  min-width: 500px;
+  height: 100%;
+  max-height: 100vh;
+  cursor: default;
+
+  div,
+  aside {
+    &::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #0000002d;
+      border-radius: 6px;
+      -webkit-box-shadow: none;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  }
+
+  .epic-split-view-container {
+    display: flex;
+    flex: 1;
+    height: 0;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.epic-modal-main {
+  height: calc(100% - 56px);
+  overflow: auto;
+  padding: 12px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.epic-modal-footer {
+  text-align: right;
+  margin-top: 8px;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+
+  .ant-btn {
+    margin-left: 8px;
+  }
+}

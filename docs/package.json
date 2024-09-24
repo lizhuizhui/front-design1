@@ -1,0 +1,13 @@
+{
+  "name": "@front-design/docs",
+  "version": "1.0.0",
+  "description": "front-design docs",
+  "author": "kchengz",
+  "dependencies": {
+    "front-design": "0.9.4",
+    "monaco-editor": "^0.34.1"
+  },
+  "devDependencies": {
+    "vite-plugin-monaco-editor": "^1.1.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@front-design/utils",
+  "version": "1.0.0",
+  "description": "front-design utils",
+  "main": "index.ts",
+  "author": "kchengz"
+}

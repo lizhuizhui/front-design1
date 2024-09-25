@@ -1,7 +1,7 @@
 {
-  "name": "front-design1",
+  "name": "front-design",
   "private": false,
-  "version": "0.9.6",
+  "version": "0.9.5",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
